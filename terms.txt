@@ -1,0 +1,43 @@
+1) Conditional Statement:
+Branch statements also known conditional statements can be used to detect ranges and much more.
+
+2) Selection / Branch:
+In a program, a branch is a sequence of statements only executed under a certain
+condition. In Coral flowcharts, a decision creates two branches: If the decision's
+expression is true, the first branch executes, else the second branch executes.
+Afterwards, the branches rejoin. Coral flowcharts use a diamond symbol for a
+decision.
+
+3) Decision Boxes:
+if-elseif branches are typically drawn with the decision boxes stacked vertically.
+
+4) If-else:
+A decision and its two branches are often called if-else branches, because IF the
+decision's expression is true then the first branch executes, ELSE the second
+branch executes.
+
+5) If-elseif branches:
+A branch may itself contain a decision and branches. Commonly, a series of
+decisions appear cascaded in each decision's false branch, known as if-elseif
+branches, to detect specific values of a variable. The example below detects
+values of 1, 25, or 50 for variable numYears.
+
+6) Equality operator:
+An equality operator checks whether two operands' values are the same (==) or
+different (!=). Note that equality is ==, not just =.
+
+7) Boolean:
+An expression involving an equality operator evaluates to a Boolean value. A
+Boolean is a type that has just two values: true or false.
+
+8) Nested branches:
+If-else branches have two branches. A branch's statements can include any valid
+statements, including another if-else branch, known as nested branches. The
+nested branches can take on various forms, and the if-else branches may even
+use different variables.
+
+9) Multiple if branches:
+Sometimes the programmer has multiple decisions in sequence, which look similar
+to if-elseif branches but have a very different meaning. In multiple if branches,
+each decision is independent, and thus more than one branch can execute, in
+contrast to the if-elseif arrangement where only one branch can execute.

@@ -1,0 +1,12 @@
+integer userAge
+integer insurePrice
+
+userAge = Get next input
+
+if userAge < 25
+   insurePrice = 4800
+else
+   insurePrice = 2200
+   
+Put "Annual price: $" to output
+Put insurePrice to output
